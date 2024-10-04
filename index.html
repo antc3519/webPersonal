@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anthony Caruso - Home</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">LANDING</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://github.com/antc3519" target="_blank">
+              <i data-feather="github"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/ant.caruso/" target="_blank">
+            <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/anthony-caruso-95981a238/" target="_blank">
+            <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+        <div class="bubbles">
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">LANDING</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
+            <h1>Anthony M Caruso</h2>
+            <h2>Software Engineer & Entrepreneur</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              I am a student, developer, traveler, game enthusiast, and co-founder of ReFilament! Currently, 
+              I am an undergraduate student at the New Jersey Institute of Technology pursuing a degree in 
+              Computer Science. Currently, I spend most of my time between classes, building NJIT's Startup
+              community at NJII, and engaging with my community through the various clubs and community 
+              service organizations I work with!
+            </p>
+            <p class=""> 
+              Nothing makes me happier than building or designing something that can help others (or is just 
+              fun and crazy!) This website itself is hopefully a good example, but on top of it I have designed 
+              and maintained professional websites and resources for a few organizations and companies I worked 
+              with in the past! I am confident in my abilities and can fill a plethora of roles on any team with 
+              my experience and comprehension skills, plus I am a friendly and outgoing individual! 
+              
+            </p>
+            <p class=""> 
+              Feel free to start a conversation with me through my email/socials or just say hi! I am always more 
+              than happy to meet and connect with new people! Also check out some of the random projects I have on
+              my github profile! Most of them are from coding assignments and previous personal websites, but if you
+              are interested in learning more about non-code projects I have worked on, refer to my resume below!
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">MY PROFESSIONAL HISTORY</h3>
+              <div class="">
+                <h4>Entrepreneurship Community Coordinator</h4>
+                <p>New Jersey Innovation Institute &bull; part-time</p>
+                <p>August 2023 - Present</p>
+                <p>Newark, New Jersey, United States</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Interacted with and supported Research teams with commercialization or building startups</li>
+                  <li>Conducted customer research and validation to discover potential patent licensing targets</li>
+                  <li>Analyzed market trends and commercialization strategies to assess the commercial value of research and startups</li>
+                  <li>Designed schema for a relational database to manage companies and startups associated with NJII and NJIT programs</li>
+                  <li>Coordinated and outlined specifications for NJII resources like a portfolio company jobs board</li>
+                  <li>Piloted an NJIT-backed student work program and managed a cohort of students to assist startups with projects</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Co-Founder & Entrepreneurial Lead</h4>
+                <p>ReFilament &bull; self-employed</p>
+                <p>July 2023 - Present</p>
+                <p>Newark, New Jersey, United States</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Coordinated customer outreach interviews and surveys to develop the company</li>
+                  <li>Researched market demands to develop a business plan and financial model to support operations</li>
+                  <li>Fostered a dynamic online platform using AWS to market, promote, and sell products for the company</li>
+                  <li>Completed National Science Foundation Regional I-Corps program focusing on customer discovery and interviews</li>             </ul>
+              </div>
+              <div class="">
+                <h4>Technology Department Intern</h4>
+                <p>Brick Township Board of Education &bull; part-time</p>
+                <p>November 2020 - August 2022</p>
+                <p>Brick, New Jersey, United States</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Supported technological systems and prepared educational devices throughout the 12 schools in the District</li>
+                  <li>Executed the introduction of the 1:1 laptop initiative, providing devices to all students across grades K-12</li>
+                  <li>Repaired, stripped, and replaced parts from various models of Windows computers and laptops</li>
+                  <li>Accelerated inventory processing by Imaging, enrolling, and managing laptops across the school district</li>
+                  <li>Learned about network security and network systems involved in running a large-scale organization</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>District Technology Chair</h4>
+                <p>Circle K International, New Jersey District Board &bull; volunteer</p>
+                <p>March 2023 - Present</p>
+                <p>Summit, New Jersey, United States</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Utilized WordPress to renovate and build webpages on the District website</li>
+                  <li>Designed, edited, and uploaded promotional videos on YouTube for events and officers</li>
+                  <li>Initiated and guided an organizational transition to Google Suites for email and resource retention</li>
+                  <li>Supported physical and digital event setup managing technology and audio/video devices</li>
+                  <li>Volunteered for 200+ hours
+                </ul>
+              </div>
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY EDUCATION</h3>
+                <h4>Bachelor of Science; Computer Science, New Jersey Institute of Technology, Newark</h4>
+                <p>September 2021 - May 2025</p>
+                <h4>Highschool diploma, Brick Memorial High School, Brick</h4>
+                <p>September 2017 - May 2021 </p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY SKILLS</h3>
+              <!--SOFT SKILLS-->
+              <h4>Soft skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Excellent communication skills and am comfortable in front of any audience</li>
+                <li>Strong comprehension abilities that allow me to pck up any skill or tool quickly</li>
+                <li></li>
+                <li>I have a talent for investigating and researching different processes to offer different improvements and solution for the benefit of the organization </li>
+                <li>Provided engaging text, image and video content for all social media and professional accounts</li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I have a great experience with MS Office tools</li>
+                  <li>I am proficient in technical writing</li>
+                  <li>Provided engaging text, image and video content for all social media and professional accounts</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I love board games! My favorite is Ticket to Ride, which I love playing with friends!</li>
+                  <li>I am an avid traveler and really enjoy going to historical sites and ancient cities!</li>
+                  <li>One of my favorite pastimes is exercising at the gym or playing sports! (I am a seasoned bowler and racquetball player)</li>
+                </ul>
+            </div>
+
+            <!--REFERENCE SECTION
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY REFERENCES</h3>
+              <h4>Jane Doe, CEO at Company-Z</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>+0123456789</li>
+                <li>janedoe@companyz.com</li>
+              </ul>
+              <h4>Margaret Johnson, Manager at Company-Y</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>+9876543210</li>
+                <li>mjohnson@companyy.com</li>
+              </ul>
+            </div>-->            
+          </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Anthony Caruso</p>
+              <p>Adress: 464 18th Ave, Brick, New Jersey</p>
+              <p>Phone number: (732) 664-5613</p>
+              <p>E-mail: anth3519@gmail.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2024 - Anthony Caruso</p>
+          <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
